@@ -1,1 +1,3 @@
 https://angular.io/guide/quickstart
+https://angular.io/guide/pipes
+https://angular.io/guide/forms

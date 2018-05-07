@@ -1,3 +1,5 @@
 https://angular.io/guide/quickstart
 https://angular.io/guide/pipes
 https://angular.io/guide/forms
+https://angular.io/api/forms/NgModel
+https://www.w3schools.com/angular/angular_model.asp

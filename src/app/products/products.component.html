@@ -1,5 +1,7 @@
-<div>
-  <input [(ngModel)]="product.name">
-  <div>Name: {{ product.name | uppercase }}</div>
-  <div>Price: {{ product.price }}</div>
-</div>
+<ul>
+  <li *ngFor="let product of products">
+    <input [(ngModel)]="product.name">
+    <div>Name: {{ product.name | uppercase }}</div>
+    <div>Price: {{ product.price }}</div>
+  </li>
+</ul>

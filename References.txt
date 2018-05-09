@@ -3,3 +3,10 @@ https://angular.io/guide/pipes
 https://angular.io/guide/forms
 https://angular.io/api/forms/NgModel
 https://www.w3schools.com/angular/angular_model.asp
+https://angular.io/guide/structural-directives#!#asterisk
+https://stackoverflow.com/questions/40078189/angular-2-why-asterisk
+https://www.tutorialspoint.com/angular2/angular2_structural_directive.htm
+https://angular.io/guide/displaying-data#showing-an-array-property-with-ngfor
+https://angular.io/guide/template-syntax#microsyntax
+https://angular.io/guide/structural-directives#microsyntax
+https://www.quora.com/What-is-ngFor-in-Angular-2

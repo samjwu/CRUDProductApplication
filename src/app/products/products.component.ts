@@ -25,7 +25,13 @@ export class ProductsComponent implements OnInit {
     }
   ]
 
+  selectedProduct: Product
+
   constructor() { }
+
+  onSelectProduct(product) {
+    this.selectedProduct = product
+  }
 
   ngOnInit() {
     console.log("OnInit")

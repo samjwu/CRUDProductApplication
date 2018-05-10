@@ -12,3 +12,4 @@ https://angular.io/guide/structural-directives#microsyntax
 https://www.quora.com/What-is-ngFor-in-Angular-2
 https://angular.io/guide/user-input
 https://angular.io/guide/template-syntax#event-binding
+https://angular.io/api/core/OnInit

@@ -13,3 +13,5 @@ https://www.quora.com/What-is-ngFor-in-Angular-2
 https://angular.io/guide/user-input
 https://angular.io/guide/template-syntax#event-binding
 https://angular.io/api/core/OnInit
+https://angular.io/api/common/NgIf
+https://www.w3schools.com/angular/ng_ng-if.asp

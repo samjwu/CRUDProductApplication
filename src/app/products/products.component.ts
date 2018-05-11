@@ -33,8 +33,6 @@ export class ProductsComponent implements OnInit {
     this.selectedProduct = product
   }
 
-  ngOnInit() {
-    this.selectedProduct = this.products[0]
-  }
+  ngOnInit() {}
 
 }

@@ -6,5 +6,7 @@
   </li>
 </ul>
 
-<h2>Selected Product</h2>
-{{ selectedProduct.name }}
+<div *ngIf="selectedProduct">
+  <h2>Selected Product</h2>
+  {{ selectedProduct.name }}
+</div>

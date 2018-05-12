@@ -1,0 +1,7 @@
+.product {
+    font-family: Garamond, 'Times New Roman', Times, serif;
+}
+
+.product.selected {
+    color: #ffa500;
+}

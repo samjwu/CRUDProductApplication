@@ -2,8 +2,9 @@ https://angular.io/guide/quickstart
 https://angular.io/guide/pipes
 https://angular.io/guide/forms
 https://angular.io/api/forms/NgModel
-https://www.w3schools.com/angular/angular_model.asp
-https://angular.io/guide/structural-directives#!#asterisk
+https://angular.io/guide/template-syntax#two-way-binding---
+https://stackoverflow.com/questions/42504918/difference-between-ngmodel-and-ngmodel-for-binding-state-to-property
+https://angular.io/guide/structural-directives#the-asterisk--prefix
 https://stackoverflow.com/questions/40078189/angular-2-why-asterisk
 https://www.tutorialspoint.com/angular2/angular2_structural_directive.htm
 https://angular.io/guide/displaying-data#showing-an-array-property-with-ngfor
@@ -14,4 +15,8 @@ https://angular.io/guide/user-input
 https://angular.io/guide/template-syntax#event-binding
 https://angular.io/api/core/OnInit
 https://angular.io/api/common/NgIf
-https://www.w3schools.com/angular/ng_ng-if.asp
+https://webdev.dartlang.org/api/angular/angular/NgIf-class
+https://alligator.io/angular/class-binding-ngclass-angular/
+https://angular.io/guide/template-syntax#property-binding--property-
+https://angular.io/guide/template-syntax#!#class-binding
+https://stackoverflow.com/questions/39737159/what-is-the-property-in-property-binding-class-selected

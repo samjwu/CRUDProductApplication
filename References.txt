@@ -20,3 +20,6 @@ https://alligator.io/angular/class-binding-ngclass-angular/
 https://angular.io/guide/template-syntax#property-binding--property-
 https://angular.io/guide/template-syntax#!#class-binding
 https://stackoverflow.com/questions/39737159/what-is-the-property-in-property-binding-class-selected
+https://angular.io/guide/component-interaction
+https://angular.io/guide/template-syntax#inputs-outputs
+https://developer.telerik.com/topics/web-development/component-property-binding-input-angular-2/#toc_10

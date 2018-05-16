@@ -24,3 +24,4 @@ https://angular.io/guide/component-interaction
 https://angular.io/guide/template-syntax#inputs-outputs
 https://developer.telerik.com/topics/web-development/component-property-binding-input-angular-2/#toc_10
 https://github.com/angular/angular-cli/wiki
+https://angular.io/guide/cheatsheet

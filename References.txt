@@ -31,3 +31,5 @@ https://angular.io/api/router/Routes
 https://angular.io/guide/router
 https://angular.io/guide/ngmodules
 http://angularfirst.com/the-ngmodule-forroot-convention/
+https://angular.io/api/router/RouterLink
+https://angular.io/api/router/RouterOutlet

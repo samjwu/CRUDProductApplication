@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductdetailComponent } from './productdetail/productdetail.component';
 import { ProductService } from './product.service';
+import { ApproutingModule } from './/approuting.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ProductService } from './product.service';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    ApproutingModule
   ],
   providers: [ ProductService ],
   bootstrap: [AppComponent]

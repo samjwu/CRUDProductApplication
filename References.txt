@@ -26,3 +26,8 @@ https://developer.telerik.com/topics/web-development/component-property-binding-
 https://github.com/angular/angular-cli/wiki
 https://angular.io/guide/cheatsheet
 https://github.com/angular/angular-cli/wiki/generate-module
+https://angular.io/api/router/RouterModule
+https://angular.io/api/router/Routes
+https://angular.io/guide/router
+https://angular.io/guide/ngmodules
+http://angularfirst.com/the-ngmodule-forroot-convention/

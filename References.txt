@@ -33,3 +33,7 @@ https://angular.io/guide/ngmodules
 http://angularfirst.com/the-ngmodule-forroot-convention/
 https://angular.io/api/router/RouterLink
 https://angular.io/api/router/RouterOutlet
+https://github.com/ReactiveX/rxjs/blob/master/MIGRATION.md
+https://stackoverflow.com/questions/49811177/angular-6-rxjs-import-syntax
+https://angular.io/guide/observables
+https://medium.com/@luukgruijs/understanding-creating-and-subscribing-to-observables-in-angular-426dbf0b04a3

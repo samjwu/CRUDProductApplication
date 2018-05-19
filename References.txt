@@ -37,3 +37,8 @@ https://github.com/ReactiveX/rxjs/blob/master/MIGRATION.md
 https://stackoverflow.com/questions/49811177/angular-6-rxjs-import-syntax
 https://angular.io/guide/observables
 https://medium.com/@luukgruijs/understanding-creating-and-subscribing-to-observables-in-angular-426dbf0b04a3
+https://wesbos.com/arrow-functions/
+https://stackoverflow.com/questions/44921788/what-is-subscribe-in-angular
+https://www.learnrxjs.io/operators/creation/of.html
+http://reactivex.io/documentation/observable.html
+http://reactivex.io/documentation/operators/subscribe.html

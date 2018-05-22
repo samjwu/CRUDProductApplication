@@ -42,3 +42,9 @@ https://stackoverflow.com/questions/44921788/what-is-subscribe-in-angular
 https://www.learnrxjs.io/operators/creation/of.html
 http://reactivex.io/documentation/observable.html
 http://reactivex.io/documentation/operators/subscribe.html
+https://angular.io/api/common/http/HttpClientModule
+https://angular.io/api/common/http/HttpClient
+https://docs.npmjs.com/misc/config
+https://stackoverflow.com/questions/40868494/what-is-the-s-in-npm-i-s
+https://stackoverflow.com/questions/19578796/what-is-the-save-option-for-npm-install
+https://github.com/angular/in-memory-web-api

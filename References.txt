@@ -48,3 +48,4 @@ https://docs.npmjs.com/misc/config
 https://stackoverflow.com/questions/40868494/what-is-the-s-in-npm-i-s
 https://stackoverflow.com/questions/19578796/what-is-the-save-option-for-npm-install
 https://github.com/angular/in-memory-web-api
+https://angular.io/api/common/http/HttpHeaders

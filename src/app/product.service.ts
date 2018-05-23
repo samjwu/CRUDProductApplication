@@ -3,6 +3,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Product } from "./product";
 import { Observable, of } from "rxjs";
 import { Http } from '@angular/http';
+import { catchError, map, tap } from 'rxjs/operators';
 
 const products = [
   {
@@ -31,7 +32,17 @@ export class ProductService {
 
   private productsURL = 'api/products';
 
+  private handleError<T>(operation = 'operation', result?: T) {
+    return (error: any): Observable<T> => {
+      console.error(error, 'Operation: ${operation}');
+      return of(result as T);
+    }
+  }
+
   getProducts(): Observable<Product[]> {
-    return this.http.get<Product[]>(this.productsURL);
+    return this.http.get<Product[]>(this.productsURL)
+    .pipe(
+      catchError(this.handleError('getProducts', []))
+    );
   }
 }

@@ -52,3 +52,7 @@ https://angular.io/api/common/http/HttpHeaders
 https://medium.com/@venomnert/pipe-function-in-javascript-8a22097a538e
 https://www.learnrxjs.io/operators/error_handling/catch.html
 https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/catchError.ts
+https://stackoverflow.com/questions/47275385/what-are-pipe-and-tap-methods-in-angular-tutorial
+https://github.com/ReactiveX/rxjs/blob/5.5.2/src/operators/tap.ts#L14
+https://github.com/ReactiveX/rxjs/blob/5.5.2/src/Observable.ts#L306
+https://www.typescriptlang.org/docs/handbook/functions.html

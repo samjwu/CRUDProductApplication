@@ -42,7 +42,16 @@ export class ProductService {
   getProducts(): Observable<Product[]> {
     return this.http.get<Product[]>(this.productsURL)
     .pipe(
+      tap(products => console.log('run getProducts')),
       catchError(this.handleError('getProducts', []))
+    );
+  }
+
+  getProduct(id: number): Observable<Product> {
+    const url = `${this.productsURL}/${id}`;
+    return this.http.get<Product>(url).pipe(
+      tap(_ => console.log(`Get product with id: ${id}`, products)),
+      catchError(this.handleError<Product>(`getProduct id=${id}`))
     );
   }
 }

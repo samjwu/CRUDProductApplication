@@ -5,23 +5,9 @@ import { Observable, of } from "rxjs";
 import { Http } from '@angular/http';
 import { catchError, map, tap } from 'rxjs/operators';
 
-const products = [
-  {
-    id: 1,
-    name: "Apple",
-    price: 2.99
-  },
-  {
-    id: 2,
-    name: "Pear",
-    price: 1.99
-  },
-  {
-    id: 3,
-    name: "Orange",
-    price: 0.99
-  }
-];
+const httpOptions = {
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+}
 
 @Injectable({
   providedIn: 'root'
@@ -42,7 +28,7 @@ export class ProductService {
   getProducts(): Observable<Product[]> {
     return this.http.get<Product[]>(this.productsURL)
     .pipe(
-      tap(products => console.log('run getProducts')),
+      tap(product => console.log('run getProducts')),
       catchError(this.handleError('getProducts', []))
     );
   }
@@ -50,8 +36,16 @@ export class ProductService {
   getProduct(id: number): Observable<Product> {
     const url = `${this.productsURL}/${id}`;
     return this.http.get<Product>(url).pipe(
-      tap(_ => console.log(`Get product with id: ${id}`, products)),
+      tap(product => console.log(`Get product with id: ${id}`, product)),
       catchError(this.handleError<Product>(`getProduct id=${id}`))
     );
+  }
+
+  updateProduct(product: Product): Observable<any> {
+    return this.http.put(this.productsURL, product, httpOptions)
+      .pipe(
+        tap(_ => console.log(`run updateProduct on product with id ${product.id}`)),
+        catchError(this.handleError<any>('updateProduct'))
+    )
   }
 }

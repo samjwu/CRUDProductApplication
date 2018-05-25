@@ -56,3 +56,4 @@ https://stackoverflow.com/questions/47275385/what-are-pipe-and-tap-methods-in-an
 https://github.com/ReactiveX/rxjs/blob/5.5.2/src/operators/tap.ts#L14
 https://github.com/ReactiveX/rxjs/blob/5.5.2/src/Observable.ts#L306
 https://www.typescriptlang.org/docs/handbook/functions.html
+https://stackoverflow.com/questions/2778362/what-does-this-underscore-mean-in-lambda-expressions

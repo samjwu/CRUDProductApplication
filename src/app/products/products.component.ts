@@ -28,4 +28,9 @@ export class ProductsComponent implements OnInit {
     const products = this.productService.getProducts().subscribe(products => this.products = products);
   }
 
+  save(product): void {
+    this.productService.updateProduct(product)
+      .subscribe(() => console.log('run save on product'))
+  }
+
 }

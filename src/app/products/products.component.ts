@@ -24,6 +24,7 @@ export class ProductsComponent implements OnInit {
     this.getProducts();
   }
 
+  //call getProducts from product.service.ts
   getProducts(): void {
     const products = this.productService.getProducts().subscribe(products => this.products = products);
   }

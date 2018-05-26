@@ -1,3 +1,8 @@
+<div>
+  <input #nameInput placeholder="Name">
+  <input #priceInput placeholder="Price">
+</div>
+
 <ul>
   <li class="product" [class.selected]="selectedProduct && selectedProduct.name === product.name" *ngFor="let product of products">
     <input [(ngModel)]="product.name">

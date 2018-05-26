@@ -25,6 +25,7 @@ export class ProductService {
     }
   }
 
+  //get products array from in-memory-data.service.ts
   getProducts(): Observable<Product[]> {
     return this.http.get<Product[]>(this.productsURL)
     .pipe(

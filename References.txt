@@ -57,3 +57,5 @@ https://github.com/ReactiveX/rxjs/blob/5.5.2/src/operators/tap.ts#L14
 https://github.com/ReactiveX/rxjs/blob/5.5.2/src/Observable.ts#L306
 https://www.typescriptlang.org/docs/handbook/functions.html
 https://stackoverflow.com/questions/2778362/what-does-this-underscore-mean-in-lambda-expressions
+https://stackoverflow.com/questions/46047785/what-does-id-in-input-tag-mean?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
+https://angular.io/guide/template-syntax#ref-vars

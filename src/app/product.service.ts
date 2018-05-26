@@ -49,4 +49,12 @@ export class ProductService {
         catchError(this.handleError<any>('updateProduct'))
     )
   }
+
+  addProduct(product: Product): Observable<Product> {
+    return this.http.post<Product>(this.productsURL, product, httpOptions).
+      pipe(
+        tap((product: Product) => console.log(`run addProduct on product with id ${product.id}`)),
+        catchError(this.handleError<Product>('addProduct'))
+      );
+  }
 }

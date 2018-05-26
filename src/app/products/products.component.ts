@@ -34,4 +34,11 @@ export class ProductsComponent implements OnInit {
       .subscribe(() => console.log('run save on product'))
   }
 
+  add(name: string, price: number): void {
+    this.productService.addProduct({ name, price } as Product)
+      .subscribe(product => {
+        this.products.push(product);
+      });
+  }
+
 }

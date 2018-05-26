@@ -1,6 +1,7 @@
 <div>
   <input #nameInput placeholder="Name">
   <input #priceInput placeholder="Price">
+  <button (click)="add(nameInput.value, priceInput.value); nameInput.value = ''; priceInput.value = ''">Add</button>
 </div>
 
 <ul>

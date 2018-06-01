@@ -62,3 +62,4 @@ https://angular.io/guide/template-syntax#ref-vars
 https://www.w3schools.com/jsref/jsref_push.asp
 https://www.w3schools.com/jsref/jsref_filter.asp
 https://angular.io/guide/animations
+https://stackoverflow.com/questions/12279611/handling-of-non-breaking-space-pnbsp-p-vs-p-p

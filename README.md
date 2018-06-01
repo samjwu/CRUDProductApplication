@@ -1,6 +1,10 @@
 # ProductInventoryWebApplication
 
-A CRUD Web Application for managing Product Inventory
+A CRUD Web Application for managing Product Inventory coded with Angular
+
+## Get Started
+
+Follow this guide to get started: https://angular.io/guide/quickstart
 
 ## About
 

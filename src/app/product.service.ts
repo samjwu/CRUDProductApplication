@@ -66,4 +66,5 @@ export class ProductService {
         catchError(this.handleError<Product>('deleteProduct'))
       );
   }
+  
 }

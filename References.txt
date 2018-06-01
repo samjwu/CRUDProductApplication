@@ -61,3 +61,4 @@ https://stackoverflow.com/questions/46047785/what-does-id-in-input-tag-mean?utm_
 https://angular.io/guide/template-syntax#ref-vars
 https://www.w3schools.com/jsref/jsref_push.asp
 https://www.w3schools.com/jsref/jsref_filter.asp
+https://angular.io/guide/animations

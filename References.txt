@@ -60,3 +60,4 @@ https://stackoverflow.com/questions/2778362/what-does-this-underscore-mean-in-la
 https://stackoverflow.com/questions/46047785/what-does-id-in-input-tag-mean?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 https://angular.io/guide/template-syntax#ref-vars
 https://www.w3schools.com/jsref/jsref_push.asp
+https://www.w3schools.com/jsref/jsref_filter.asp

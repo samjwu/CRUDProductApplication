@@ -10,6 +10,7 @@
     <div (click)="onSelectProduct(product)">Name: {{ product.name | uppercase }}</div>
     <div>Price: {{ product.price }}</div>
     <button (click)="save(product)">Save</button>
+    <button (click)="delete(product.id)">Delete</button>
   </li>
 </ul>
 

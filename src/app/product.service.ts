@@ -51,10 +51,19 @@ export class ProductService {
   }
 
   addProduct(product: Product): Observable<Product> {
-    return this.http.post<Product>(this.productsURL, product, httpOptions).
-      pipe(
+    return this.http.post<Product>(this.productsURL, product, httpOptions)
+      .pipe(
         tap((product: Product) => console.log(`run addProduct on product with id ${product.id}`)),
         catchError(this.handleError<Product>('addProduct'))
+      );
+  }
+
+  deleteProduct(productId: number): Observable<Product> {
+    const url = `${this.productsURL}/${productId}`;
+    return this.http.delete<Product>(url, httpOptions)
+      .pipe(
+        tap(_ => console.log(`run deleteProduct on product with id ${productId}`)),
+        catchError(this.handleError<Product>('deleteProduct'))
       );
   }
 }
